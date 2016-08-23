@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<weblogic-connector xmlns="http://www.bea.com/ns/weblogic/weblogic-connector" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.bea.com/ns/weblogic/weblogic-connector http://www.oracle.com/technology/weblogic/10.3/weblogic-connector/1.0/weblogic-connector.xsd">
+    <outbound-resource-adapter>
+        <connection-definition-group>
+            <connection-factory-interface>javax.resource.spi.ManagedConnectionFactory</connection-factory-interface>
+            <connection-instance>
+                <description>Connection Pool for simple Connector</description>
+                <jndi-name>mep/simple</jndi-name>
+            </connection-instance>
+        </connection-definition-group>
+    </outbound-resource-adapter>
+</weblogic-connector>

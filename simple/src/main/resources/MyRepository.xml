@@ -1,0 +1,181 @@
+<jeceira xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+	xmlns:jcr="http://www.jcp.org/jcr/1.0"
+	xmlns:sync="http://www.synchronica.com/jcr/types"
+	xmlns:aprzv="http://www.aparzev.com/jrc/aprzv"
+	xmlns:udc="http://www.synchronica.com/udc/types/1.0">
+	<repositories>
+		<repository name="MyRepository">
+
+			<workspaces>
+				<workspace name="MyWorkspace" />
+			</workspaces>
+
+			<nodeTypes>
+				<nodeType name="nt:base" isMixin="false"
+					hasOrderableChildNodes="false">
+					<supertypes></supertypes>
+					<propertyDefinition name="jcr:primaryType"
+						requiredType="Name" autoCreated="true" mandatory="true"
+						onParentVersion="COMPUTE" protected="true" multiple="false" />
+					<propertyDefinition name="jcr:mixinType"
+						requiredType="Name" autoCreated="false" mandatory="false"
+						onParentVersion="COMPUTE" protected="true" multiple="true" />
+				</nodeType>
+
+				<nodeType name="nt:unstructured" isMixin="false"
+					hasOrderableChildNodes="true">
+					<supertypes>
+						<supertype>nt:base</supertype>
+					</supertypes>
+					<childNodeDefinition name="*"
+						defaultPrimaryType="nt:unstructured" autoCreated="false"
+						mandatory="false" onParentVersion="VERSION" protected="false"
+						sameNameSiblings="true">
+						<requiredPrimaryTypes>
+							<requiredPrimaryType>
+								nt:base
+							</requiredPrimaryType>
+						</requiredPrimaryTypes>
+					</childNodeDefinition>
+					<propertyDefinition name="*"
+						requiredType="undefined" autoCreated="false" mandatory="false"
+						onParentVersion="COPY" protected="false" multiple="true" />
+					<propertyDefinition name="*"
+						requiredType="undefined" autoCreated="false" mandatory="false"
+						onParentVersion="COPY" protected="false" multiple="false" />
+				</nodeType>
+
+				<nodeType name="nt:hierarchyNode" isMixin="false"
+					hasOrderableChildNodes="false">
+					<supertypes>
+						<supertype>nt:base</supertype>
+					</supertypes>
+					<propertyDefinition name="jcr:created"
+						requiredType="Date" autoCreated="true" mandatory="false"
+						onParentVersion="INITIALIZE" protected="true" multiple="false">
+					</propertyDefinition>
+				</nodeType>
+
+				<nodeType name="nt:file" isMixin="false"
+					hasOrderableChildNodes="false" primaryItemName="jcr:content">
+					<supertypes>
+						<supertype>nt:hierarchyNode</supertype>
+					</supertypes>
+					<childNodeDefinition name="jcr:content"
+						autoCreated="false" mandatory="true" onParentVersion="COPY"
+						protected="false" sameNameSiblings="false">
+						<requiredPrimaryTypes>
+							<requiredPrimaryType>
+								nt:base
+							</requiredPrimaryType>
+						</requiredPrimaryTypes>
+					</childNodeDefinition>
+				</nodeType>
+
+				<nodeType name="nt:folder" isMixin="false"
+					hasOrderableChildNodes="false">
+					<supertypes>
+						<supertype>nt:hierarchyNode</supertype>
+					</supertypes>
+					<childNodeDefinition name="*" autoCreated="false"
+						mandatory="false" onParentVersion="VERSION" protected="false"
+						sameNameSiblings="false">
+						<requiredPrimaryTypes>
+							<requiredPrimaryType>
+								nt:hierarchyNode
+							</requiredPrimaryType>
+						</requiredPrimaryTypes>
+					</childNodeDefinition>
+				</nodeType>
+
+				<nodeType name="mix:referenceable" isMixin="true"
+					hasOrderableChildNodes="false">
+					<propertyDefinition name="jcr:uuid"
+						requiredType="String" autoCreated="true" mandatory="true"
+						onParentVersion="INITIALIZE" protected="true" multiple="false" />
+				</nodeType>
+
+<!--========================== end of jsr170 described optional types ==================================-->
+
+				<nodeType name="sync:file" isMixin="false"
+					hasOrderableChildNodes="false" primaryItemName="jcr:content">
+					<supertypes>
+						<supertype>nt:file</supertype>
+					</supertypes>
+					<childNodeDefinition name="*" autoCreated="false"
+						mandatory="false" onParentVersion="IGNORE" protected="false"
+						sameNameSiblings="false">
+						<requiredPrimaryTypes>
+							<requiredPrimaryType>
+								nt:base
+							</requiredPrimaryType>
+						</requiredPrimaryTypes>
+					</childNodeDefinition>
+				</nodeType>
+
+				<nodeType name="udc:folder" isMixin="false"
+					hasOrderableChildNodes="false">
+					<supertypes>
+						<supertype>nt:folder</supertype>
+					</supertypes>
+					<propertyDefinition name="udc:writable"
+						requiredType="Boolean" autoCreated="false" mandatory="true"
+						onParentVersion="IGNORE" protected="false" multiple="false" />
+					<propertyDefinition name="jcr:lastModified"
+						requiredType="Date" autoCreated="false" mandatory="true"
+						onParentVersion="IGNORE" protected="false" multiple="false" />
+					<childNodeDefinition name="*" autoCreated="false"
+						mandatory="false" onParentVersion="IGNORE" protected="false"
+						sameNameSiblings="false">
+						<requiredPrimaryTypes>
+							<requiredPrimaryType>nt:base</requiredPrimaryType>
+						</requiredPrimaryTypes>
+					</childNodeDefinition>
+				</nodeType>
+
+				<nodeType name="udc:file" isMixin="false"
+					hasOrderableChildNodes="false" primaryItemName="udc:content">
+					<supertypes>
+						<supertype>nt:base</supertype>
+					</supertypes>
+					<propertyDefinition name="udc:writable"
+						requiredType="Boolean" autoCreated="false" mandatory="true"
+						onParentVersion="IGNORE" protected="false" multiple="false" />
+					<propertyDefinition name="jcr:lastModified"
+						requiredType="Date" autoCreated="false" mandatory="true"
+						onParentVersion="IGNORE" protected="false" multiple="false" />
+					<propertyDefinition name="udc:length" requiredType="Long"
+						autoCreated="false" mandatory="true" onParentVersion="IGNORE"
+						protected="false" multiple="false" />
+					<propertyDefinition name="jcr:encoding" requiredType="String"
+						autoCreated="false" mandatory="false" onParentVersion="COPY"
+						protected="false" multiple="false" />
+					<propertyDefinition name="jcr:mimetype" requiredType="String"
+						autoCreated="false" mandatory="false" onParentVersion="COPY"
+						protected="false" multiple="false" />
+					<propertyDefinition name="jcr:lastModified" requiredType="Date"
+						autoCreated="false" mandatory="false" onParentVersion="IGNORE"
+						protected="false" multiple="false" />
+					<childNodeDefinition name="*" autoCreated="false"
+						mandatory="false" onParentVersion="IGNORE" protected="false"
+						sameNameSiblings="false">
+						<requiredPrimaryTypes>
+							<requiredPrimaryType>udc:content</requiredPrimaryType>
+						</requiredPrimaryTypes>
+					</childNodeDefinition>
+				</nodeType>
+
+				<nodeType name="udc:content" isMixin="false"
+					hasOrderableChildNodes="false" primaryItemName="udc:content">
+					<supertypes>
+						<supertype>nt:base</supertype>
+					</supertypes>
+					<propertyDefinition name="jcr:data" requiredType="Binary"
+						autoCreated="false" mandatory="true" onParentVersion="COPY"
+						protected="false" multiple="false" />
+				</nodeType>
+
+			</nodeTypes>
+		</repository>
+	</repositories>
+</jeceira>

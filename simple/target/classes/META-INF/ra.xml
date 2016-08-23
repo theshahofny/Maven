@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connector xmlns="http://java.sun.com/xml/ns/j2ee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+           http://java.sun.com/xml/ns/j2ee/connector_1_5.xsd"
+           version="1.5">
+    <display-name>MEP Connector</display-name>
+    <vendor-name>Sun Microsystems</vendor-name>
+    <eis-type>MEP</eis-type>
+    <resourceadapter-version>1.1</resourceadapter-version>
+    <resourceadapter>
+        <resourceadapter-class>
+        	org.ssa.ironyard.rar.Adapter
+        </resourceadapter-class>
+        <outbound-resourceadapter>
+            <connection-definition>
+                <managedconnectionfactory-class>
+                    org.ssa.ironyard.rar.ManagedConnectionFactory
+                </managedconnectionfactory-class>
+                <connectionfactory-interface>
+                    javax.resource.spi.ManagedConnectionFactory
+                </connectionfactory-interface>
+                <connectionfactory-impl-class>
+                    org.ssa.ironyard.rar.ManagedConnectionFactory
+                </connectionfactory-impl-class>
+                <connection-interface>
+                    javax.resource.spi.ManagedConnection
+                </connection-interface>
+                <connection-impl-class>
+                    org.ssa.ironyard.rar.ManagedConnection
+                </connection-impl-class>
+            </connection-definition>
+            <transaction-support>NoTransaction</transaction-support>
+            <reauthentication-support>false</reauthentication-support>
+        </outbound-resourceadapter>
+    </resourceadapter>
+</connector>
