@@ -73,3 +73,134 @@
 13:47:10.164 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
 13:47:10.164 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
 13:47:11.865 [main] DEBUG web.TrieLoadingService - file C:\Java Project\maven\my-app\target\classes\corncob_lowercase.txt, exists?true
+09:23:05.939 [main] WARN web.SpringStarter - Will this show up?
+09:23:06.445 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 6700 (started by admin in C:\Java Project\maven\my-app)
+09:23:06.445 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+09:23:06.447 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+14:43:59.965 [main] WARN web.SpringStarter - Will this show up?
+14:44:00.571 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 6344 (started by admin in C:\Java Project\maven\my-app)
+14:44:00.571 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+14:44:00.579 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+14:46:46.889 [main] WARN web.SpringStarter - Will this show up?
+14:46:47.366 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 9716 (started by admin in C:\Java Project\maven\my-app)
+14:46:47.367 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+14:46:47.367 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+14:46:50.627 [main] INFO web.SpringStarter - Started SpringStarter in 3.66 seconds (JVM running for 7.061)
+14:50:09.156 [main] WARN web.SpringStarter - Will this show up?
+14:50:09.820 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 11416 (started by admin in C:\Java Project\maven\my-app)
+14:50:09.821 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+14:50:09.827 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+14:50:12.549 [main] INFO web.SpringStarter - Started SpringStarter in 3.246 seconds (JVM running for 9.003)
+14:50:16.923 [http-nio-8080-exec-1] WARN web.PropertyController - city cinncinati streetmain
+14:51:33.607 [main] WARN web.SpringStarter - Will this show up?
+14:51:34.247 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 10980 (started by admin in C:\Java Project\maven\my-app)
+14:51:34.248 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+14:51:34.250 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+14:51:38.477 [main] INFO web.SpringStarter - Started SpringStarter in 4.734 seconds (JVM running for 10.531)
+14:51:41.994 [http-nio-8080-exec-1] WARN web.PropertyController - city cinncinati streetmain
+15:00:39.436 [main] WARN web.SpringStarter - Will this show up?
+15:00:40.029 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 10184 (started by admin in C:\Java Project\maven\my-app)
+15:00:40.029 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+15:00:40.030 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+15:00:43.224 [main] INFO web.SpringStarter - Started SpringStarter in 3.654 seconds (JVM running for 9.09)
+15:01:01.335 [http-nio-8080-exec-1] WARN web.PropertyController - city cinncinati streetmain
+15:01:07.606 [http-nio-8080-exec-2] WARN web.PropertyController - city portland streetmain
+15:03:01.114 [main] WARN web.SpringStarter - Will this show up?
+15:03:01.670 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 10968 (started by admin in C:\Java Project\maven\my-app)
+15:03:01.670 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+15:03:01.671 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+15:03:04.948 [main] INFO web.SpringStarter - Started SpringStarter in 3.714 seconds (JVM running for 9.231)
+15:03:12.519 [http-nio-8080-exec-1] WARN web.PropertyController - city portland streetmain
+15:05:01.123 [main] WARN web.SpringStarter - Will this show up?
+15:05:01.613 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 12264 (started by admin in C:\Java Project\maven\my-app)
+15:05:01.614 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+15:05:01.615 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+15:05:05.784 [main] INFO web.SpringStarter - Started SpringStarter in 4.552 seconds (JVM running for 7.71)
+15:05:49.398 [main] WARN web.SpringStarter - Will this show up?
+15:05:49.860 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 6632 (started by admin in C:\Java Project\maven\my-app)
+15:05:49.860 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+15:05:49.861 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+15:05:53.942 [main] INFO web.SpringStarter - Started SpringStarter in 4.441 seconds (JVM running for 7.721)
+15:06:23.584 [http-nio-8080-exec-1] WARN web.PropertyController - city portland streetmain
+15:11:03.035 [http-nio-8080-exec-4] WARN web.PropertyController - city new_york streetmain
+15:15:37.591 [http-nio-8080-exec-7] WARN web.PropertyController - city new_york streetmain
+09:23:51.374 [main] WARN web.SpringStarter - Will this show up?
+09:23:51.814 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 8040 (started by admin in C:\Java Project\maven\my-app)
+09:23:51.814 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+09:23:51.814 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+09:23:54.812 [main] INFO web.SpringStarter - Started SpringStarter in 3.328 seconds (JVM running for 9.254)
+09:24:37.747 [main] WARN web.SpringStarter - Will this show up?
+09:24:38.297 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 9328 (started by admin in C:\Java Project\maven\my-app)
+09:24:38.297 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+09:24:38.297 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+09:24:41.371 [main] INFO web.SpringStarter - Started SpringStarter in 3.504 seconds (JVM running for 8.918)
+10:06:16.207 [main] WARN web.SpringStarter - Will this show up?
+10:06:16.799 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 10672 (started by admin in C:\Java Project\maven\my-app)
+10:06:16.799 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+10:06:16.802 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+10:06:20.164 [main] INFO web.SpringStarter - Started SpringStarter in 3.835 seconds (JVM running for 7.094)
+10:15:20.330 [main] WARN web.SpringStarter - Will this show up?
+10:15:20.801 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 3596 (started by admin in C:\Java Project\maven\my-app)
+10:15:20.801 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+10:15:20.801 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+10:15:24.332 [main] INFO web.SpringStarter - Started SpringStarter in 3.889 seconds (JVM running for 8.052)
+10:25:02.969 [main] WARN web.SpringStarter - Will this show up?
+10:25:03.533 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 11432 (started by admin in C:\Java Project\maven\my-app)
+10:25:03.533 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+10:25:03.533 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+10:25:06.992 [main] INFO web.SpringStarter - Started SpringStarter in 3.886 seconds (JVM running for 9.696)
+10:29:51.432 [main] WARN web.SpringStarter - Will this show up?
+10:29:51.962 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 3536 (started by admin in C:\Java Project\maven\my-app)
+10:29:51.962 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+10:29:51.962 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+10:29:55.391 [main] INFO web.SpringStarter - Started SpringStarter in 3.819 seconds (JVM running for 8.35)
+10:35:54.429 [main] WARN web.SpringStarter - Will this show up?
+10:35:54.913 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 7904 (started by admin in C:\Java Project\maven\my-app)
+10:35:54.913 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+10:35:54.913 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+10:35:58.407 [main] INFO web.SpringStarter - Started SpringStarter in 3.869 seconds (JVM running for 8.553)
+10:46:30.654 [main] WARN web.SpringStarter - Will this show up?
+10:46:31.091 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 11392 (started by admin in C:\Java Project\maven\my-app)
+10:46:31.091 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+10:46:31.091 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+10:46:35.911 [main] INFO web.SpringStarter - Started SpringStarter in 5.164 seconds (JVM running for 8.332)
+10:48:25.269 [main] WARN web.SpringStarter - Will this show up?
+10:48:25.752 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 9872 (started by admin in C:\Java Project\maven\my-app)
+10:48:25.752 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+10:48:25.752 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+10:48:29.964 [main] INFO web.SpringStarter - Started SpringStarter in 4.571 seconds (JVM running for 9.693)
+10:50:22.831 [main] WARN web.SpringStarter - Will this show up?
+10:50:23.377 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 8568 (started by admin in C:\Java Project\maven\my-app)
+10:50:23.377 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+10:50:23.377 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+10:50:26.892 [main] INFO web.SpringStarter - Started SpringStarter in 3.936 seconds (JVM running for 8.595)
+10:58:11.913 [main] WARN web.SpringStarter - Will this show up?
+10:58:12.506 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 10588 (started by admin in C:\Java Project\maven\my-app)
+10:58:12.521 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+10:58:12.521 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+10:58:16.548 [main] INFO web.SpringStarter - Started SpringStarter in 4.526 seconds (JVM running for 9.039)
+10:59:36.902 [main] WARN web.SpringStarter - Will this show up?
+10:59:37.385 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 4344 (started by admin in C:\Java Project\maven\my-app)
+10:59:37.385 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+10:59:37.385 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+10:59:40.706 [main] INFO web.SpringStarter - Started SpringStarter in 3.68 seconds (JVM running for 8.787)
+11:02:09.741 [main] WARN web.SpringStarter - Will this show up?
+11:02:10.240 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 9928 (started by admin in C:\Java Project\maven\my-app)
+11:02:10.240 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+11:02:10.240 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+11:02:13.850 [main] INFO web.SpringStarter - Started SpringStarter in 3.985 seconds (JVM running for 8.939)
+11:03:08.125 [main] WARN web.SpringStarter - Will this show up?
+11:03:08.609 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 9852 (started by admin in C:\Java Project\maven\my-app)
+11:03:08.624 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+11:03:08.624 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+11:03:12.482 [main] INFO web.SpringStarter - Started SpringStarter in 4.263 seconds (JVM running for 7.386)
+13:12:05.577 [main] WARN web.SpringStarter - Will this show up?
+13:12:05.977 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 5456 (started by admin in C:\Java Project\maven\my-app)
+13:12:05.978 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+13:12:05.978 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+13:12:08.946 [main] INFO web.SpringStarter - Started SpringStarter in 3.279 seconds (JVM running for 5.839)
+13:50:17.700 [main] WARN web.SpringStarter - Will this show up?
+13:50:18.113 [main] INFO web.SpringStarter - Starting SpringStarter on PC13 with PID 9408 (started by admin in C:\Java Project\maven\my-app)
+13:50:18.114 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+13:50:18.115 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+13:50:21.209 [main] INFO web.SpringStarter - Started SpringStarter in 3.406 seconds (JVM running for 6.051)

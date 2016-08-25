@@ -1,0 +1,8 @@
+10:47:54.203 [main] WARN web.SpringStarter - Will this show up?
+10:47:56.018 [main] INFO web.SpringStarter - Starting SpringStarter v1.0-SNAPSHOT on PC13 with PID 7420 (C:\Java Project\maven\my-app\target\my-app-1.0-SNAPSHOT.jar started by admin in C:\Java Project\maven\my-app\target)
+10:47:56.018 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+10:47:56.018 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default
+10:50:09.522 [main] WARN web.SpringStarter - Will this show up?
+10:50:10.927 [main] INFO web.SpringStarter - Starting SpringStarter v1.0-SNAPSHOT on PC13 with PID 5492 (C:\Java Project\maven\my-app\target\my-app-1.0-SNAPSHOT.jar started by admin in C:\Java Project\maven\my-app\target)
+10:50:10.927 [main] DEBUG web.SpringStarter - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+10:50:10.927 [main] INFO web.SpringStarter - No active profile set, falling back to default profiles: default

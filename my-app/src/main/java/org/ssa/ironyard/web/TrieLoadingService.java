@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 
-@Component
+//@Component
 public class TrieLoadingService 
 {
     static final Logger LOGGER = LogManager.getLogger(TrieLoadingService.class);
@@ -19,11 +19,11 @@ public class TrieLoadingService
     @Autowired
     Trie trie;
     
-    public TrieLoadingService(Trie trie) throws URISyntaxException
+    public TrieLoadingService(FileFactory ff, Trie t) throws URISyntaxException
     {
         URL resource = getClass().getClassLoader().getResource("corncob_lowercase.txt");
-        File file = new File(resource.toURI());
-        LOGGER.debug("file {}, exists?{}", file, file.exists());
+        //File file = FileFactory.getInstance();
+        //LOGGER.debug("file {}, exists?{}", file, file.exists());
 
     }
     
