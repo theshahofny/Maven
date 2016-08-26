@@ -10,11 +10,13 @@ public class Animal {
 	public String fact;
 
 	enum Continent{
-		Europe, NorthAmerica, SouthAmerica, Africa, Asia, Austrailia, Anartica, inYourImagination;
+		Europe, NorthAmerica, SouthAmerica, Africa, Asia, Austrailia, Anartica, inYourImagination, Where;
 	}
 
 	public Animal(String name) {
 		this.name = name;
+		natively.add(Continent.Where);
+		fact = " ";
 	}
 
 	public String getName() {

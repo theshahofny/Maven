@@ -12,6 +12,7 @@ import java.util.List;
 import org.springframework.http.ResponseEntity;
 //import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 //import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.ssa.ironyard.web.Animal.Continent;
@@ -26,6 +27,41 @@ public class SSAZooController {
 	//		
 	//	}
 
+	@RequestMapping("/animals")
+	ResponseEntity<List<String>> listofAnimals(){
+		List<String> animals = new ArrayList<>();
+		String Url = "/zoo/";
+		
+		animals.add("zebra " + "Url:" + Url + "zebra");
+		animals.add("yack " + "Url:" + Url + "yack");
+		animals.add("xray_tetra" + "Url:" + Url + " ");
+		animals.add("whale " + "Url:" + Url + "zebra");
+		animals.add("velociraptor" + "Url:" + Url + "zebra");
+		animals.add("unicorn" + "Url:" + Url + "zebra");
+		animals.add("treefrog" + "Url:" + Url + "zebra");
+		animals.add("squirrel" + "Url:" + Url + "zebra");
+		animals.add("rhinoceros" + "Url:" + Url + "zebra");
+		animals.add("quail" + "Url:" + Url + "zebra");
+		animals.add("piranha" + "Url:" + Url + "zebra");
+		animals.add("orangatuan" + "Url:" + Url + "zebra");
+		animals.add("nightingale" + "Url:" + Url + "zebra");
+		animals.add("manatee" + "Url:" + Url + "zebra");
+		animals.add("loris" + "Url:" + Url + "zebra");
+		animals.add("kangaroo" + "Url:" + Url + "zebra");
+		animals.add("jackalope" +  "Url:" + Url + "zebra");
+		animals.add("iguana" + "Url:" + Url + "zebra" );
+		animals.add("horse");
+		animals.add("gorilla");
+		animals.add("fish");
+		animals.add("elephant");
+		animals.add("donkey");
+		animals.add("chimpanzee");
+		animals.add("baboon");
+		animals.add("aardark");
+		
+		return ResponseEntity.ok().body(animals);	
+	}
+	
 	@RequestMapping("/aardark")
 	ResponseEntity<Animal> aardark(){
 		Animal aardark = new Animal("aardark");
@@ -161,13 +197,13 @@ public class SSAZooController {
 	@RequestMapping("/rhinoceros")
 	ResponseEntity<Animal> rhino(){
 		Animal quail = new Animal("rhinoceros");
-		quail.addCon(Continent.Asia);
-		quail.addCon(Continent.Austrailia);
+		quail.addCon(Continent.Africa);
+		
 		return ResponseEntity.ok().header("X-Powered-BY", "SSA Zoo").body(quail);
 	}
 	@RequestMapping("/squirrel")
 	ResponseEntity<Animal> squirrel(){
-		Animal squirrel = new Animal("rhinoceros");
+		Animal squirrel = new Animal("squirrel");
 		squirrel.addCon(Continent.Asia);
 		squirrel.addCon(Continent.Austrailia);
 		return ResponseEntity.ok().header("X-Powered-BY", "SSA Zoo").body(squirrel);
@@ -176,8 +212,8 @@ public class SSAZooController {
 	@RequestMapping("/treefrog")
 	ResponseEntity<Animal> tf(){
 		Animal treefrog = new Animal("treefrog");
-		treefrog.addCon(Continent.Asia);
-		treefrog.addCon(Continent.Austrailia);
+		treefrog.addCon(Continent.NorthAmerica);
+		
 		return ResponseEntity.ok().header("X-Powered-BY", "SSA Zoo").body(treefrog);
 	}
 	
@@ -211,13 +247,13 @@ public class SSAZooController {
 	
 	@RequestMapping("/yack")
 	ResponseEntity<Animal> yack(){
-		Animal unicorn = new Animal("treefrog");
+		Animal unicorn = new Animal("yack");
 		unicorn.addCon(Continent.inYourImagination);
 		return ResponseEntity.ok().header("X-Powered-BY", "SSA Zoo").body(unicorn);
 	}
 	@RequestMapping("/zebra")
 	ResponseEntity<Animal> zebrasauras(){
-		Animal unicorn = new Animal("treefrog");
+		Animal unicorn = new Animal("yack");
 		unicorn.addCon(Continent.inYourImagination);
 		return ResponseEntity.ok().header("X-Powered-BY", "SSA Zoo").body(unicorn);
 	}
